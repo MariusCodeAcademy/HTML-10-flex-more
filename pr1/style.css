@@ -17,6 +17,10 @@ body {
   padding-bottom: 4%;
 }
 
+p {
+  color: #999;
+}
+
 /* Header ============================= */
 
 .header {
@@ -52,6 +56,7 @@ body {
 .services-cards {
   display: flex;
   margin-bottom: 2rem;
+  gap: 15px;
 }
 
 .services-cards .card {
