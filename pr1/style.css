@@ -69,3 +69,48 @@ p {
 .card-link {
   color: #0779e4;
 }
+
+/* totals section ============================= */
+.totals-section {
+  background-color: #0779e4;
+  color: white;
+}
+
+.totals-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.t-card {
+  flex-basis: 27%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 0.5em 0;
+  /* border: 1px solid #000; */
+}
+.t-icon {
+  margin-bottom: 0;
+}
+.t-icon i {
+  color: #fff;
+  font-size: 35px;
+}
+
+.t-number {
+  flex-basis: 30%;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0;
+}
+.t-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
