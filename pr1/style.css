@@ -72,7 +72,10 @@ p {
 
 /* totals section ============================= */
 .totals-section {
-  background-color: #0779e4;
+  /* background-color: #0779e4;
+  background-image: url('./bg.webp'); */
+  background-image: linear-gradient(to right, #095eaec4, #095eaec4), url('./bg.webp');
+  background-size: cover;
   color: white;
 }
 
