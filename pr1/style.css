@@ -1,6 +1,7 @@
 /* Common Css ============================= */
 body {
   background-color: #f8f8f8;
+  margin-bottom: 1000px;
 }
 .section-subtitle {
   color: #0779e4;
@@ -31,6 +32,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 5;
   /* padding: 1em 0; */
 }
 
@@ -129,6 +131,8 @@ p {
 
 .user-cards {
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .u-card {
