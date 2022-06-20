@@ -174,3 +174,32 @@ p {
   bottom: 5px;
   right: 0;
 }
+/* blog section ============================= */
+.b-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+}
+.b-card {
+  flex-basis: 30%;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+.half {
+  flex-basis: 45%;
+}
+
+.full {
+  flex-basis: 98%;
+}
+
+.grow2 {
+  flex-basis: 60%;
+}
+
+.same {
+  /* width: 33%; */
+  flex-grow: 0;
+}
