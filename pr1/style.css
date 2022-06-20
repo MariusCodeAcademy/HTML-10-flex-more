@@ -26,6 +26,11 @@ p {
 .header {
   background-color: #0779e4;
   color: white;
+  /* galimas varijantas naujose versijose */
+  /* position: sticky; */
+  position: fixed;
+  top: 0;
+  width: 100%;
   /* padding: 1em 0; */
 }
 
@@ -52,7 +57,9 @@ p {
 }
 
 /* Services section ============================= */
-
+.services-section {
+  padding-top: calc(4% + 49px);
+}
 .services-cards {
   display: flex;
   margin-bottom: 2rem;
